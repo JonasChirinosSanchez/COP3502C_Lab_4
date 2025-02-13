@@ -25,6 +25,15 @@ def print_prime_factors(x):
 
     x_initial = x
 
+    if x == 2:
+        print(f"{x_initial} =", 2)
+    elif x == 3:
+        print(f"{x_initial} =", 3)
+    elif x == 5:
+        print(f"{x_initial} =", 5)
+    elif x == 7:
+        print(f"{x_initial} =", 7)
+
     if x % 2 == 0:
         while x % 2 == 0:
             factor_x.append("* 2 ")
