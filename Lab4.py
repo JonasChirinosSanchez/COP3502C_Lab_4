@@ -82,5 +82,3 @@ def print_prime_factors(x):
         factor_x.append(f"* {x}")
 
     print(f"{x_initial} =", *factor_x)
-
-print_prime_factors(123456)
