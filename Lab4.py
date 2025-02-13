@@ -12,9 +12,11 @@ def fibonacci(n):
 
 
 def is_prime(a):
-    if a <= 2:
+    if a < 2:
         return False
     for i in range(2, a):
+        if a == 2: 
+            return True
         if a % 2 == 0:
             return False
     return True
